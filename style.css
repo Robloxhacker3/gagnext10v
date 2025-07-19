@@ -1,0 +1,96 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom, #f0fff0, #e0f7fa);
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #a5d6a7;
+  padding: 20px;
+  color: white;
+}
+
+.nav h1 {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav .buttons button {
+  background: #66bb6a;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  margin-left: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.trade-list {
+  padding: 20px;
+}
+
+.trade-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.trade-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.trade-body p {
+  margin: 4px 0;
+}
+
+.chat-btn {
+  background: #42a5f5;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #66bb6a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
